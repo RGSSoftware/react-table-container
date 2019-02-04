@@ -557,7 +557,7 @@
             };
             var containerProps = {
                 ref: function (ref) { return (_this.containerRef = ref); },
-                style: __assign({}, style, containerStyle),
+                style: __assign({}, containerStyle, style),
                 className: className
             };
             // Only one direct child (i.e. <table>) is allowed
