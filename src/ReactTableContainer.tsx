@@ -148,8 +148,8 @@ export default class ReactTableContainer extends React.Component<
     let containerProps = {
       ref: ref => (this.containerRef = ref),
       style: {
-        ...style,
-        ...containerStyle
+        ...containerStyle,
+        ...style
       },
       className
     };
